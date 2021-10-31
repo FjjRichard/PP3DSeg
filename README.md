@@ -1,6 +1,4 @@
 # PP3DSeg
-初衷：在aistudio暂时还没有找到属于医疗数据的3D分割，自己又没有本地算力，又想自己搞一下3D分割，所以就有了这个项目。
-
 PP3DSeg这个工具是基于PaddlePaddle和PaddleSeg构建的，其中3DUnet网络和一些transform方法是参考https://github.com/wolny/pytorch-3dunet 。
 
 整个项目基本和PaddleSeg很像，只是针对3D医疗数据进行修改。专门用来处理3D的医疗数据，并对数据进行3D分割。
