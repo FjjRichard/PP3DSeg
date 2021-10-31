@@ -1,0 +1,2 @@
+# PP3DSeg
+基于PaddlePaddle和PaddleSeg创建PP3DSeg项目，用于对医疗数据进行3D分割
