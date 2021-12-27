@@ -10,3 +10,4 @@ scipy
 prettytable
 scikit-image
 SimpleITK
+paddlepaddle-gpu
