@@ -38,7 +38,10 @@ class Compose:
             im = outputs[0]
             if len(outputs) == 2:
                 label = outputs[1]
-        return (im, label)
+        if label is None:
+            return (im,)
+        else:
+            return (im, label)
 
 
 class RandomHorizontalFlip:
