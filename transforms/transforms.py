@@ -285,7 +285,7 @@ class ToTensor:
 
         im = paddle.to_tensor(im.astype(dtype=self.dtype))
         if label is not None:
-            label = paddle.to_tensor(label.astype(dtype='int32'))
+            label = paddle.to_tensor(label.astype(dtype='int64'))
 
         if label is None:
             return (im, )
